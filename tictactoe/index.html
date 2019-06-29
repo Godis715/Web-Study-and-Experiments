@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <style>
+        .smooth-change {
+            transition: .8s;
+        }
+        .cell {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: lightgreen;
+            text-align: center;
+            display:inline-block;
+            vertical-align: center;
+            user-select: none;
+        }
+        .cell:hover {
+            background: green;
+        }
+    </style>
+
+    <body>
+
+        <h1>Hello world!</h1>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <div id="game-area"></div>
+
+        <div class="menu">
+            <button id="btn-new-game">new game</button>
+            <input id="area-size" placeholder="field size"></input>
+        </div>
+
+        <div>
+            <div id="message"></div>
+        </div>
+    </body>
+</html>
