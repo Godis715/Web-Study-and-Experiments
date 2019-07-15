@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Code editor</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <style>
+        .editor-container {
+            font-size: 1em;
+        }
+
+        .source-code {
+            font-family: monospace;
+            word-wrap: normal;
+
+            font-size: 100%;
+        }
+
+        .output {
+            height: 100%;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            position: absolute;
+            overflow: hidden;
+
+            display: inline-block;
+
+            white-space: pre;
+        }
+
+    </style>
+    <body>
+        <div class="editor-container">
+            <div contenteditable="true" class="source-code output" id="editor"></div>
+        </div>
+    </body>
+    <script>
+        
+    </script>
+</html>
